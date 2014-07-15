@@ -15,7 +15,7 @@ In this lab, you're going put together all you've learned about listening to DOM
 2. Setup your form to capture a task name. You can include a button to be part of the form to have many ways to submit.
 3. Setup the `onsubmit` action for the form to use that data to append to the todo list. Use a combination of `document.createElement` and `document.createTextNode` for creating elements, as well as `appendChild` and/or `innerHTML` for adding to the page.
 
-4. Use **event delegation **so that clicking the `x` or other buttons removes the item. This will require setting up a click event on the main todolist container, and using `event.target` to determine if the click is coming from a button, . Using `event.target.parentNode` to find the parent object. and using `removeChild()` on an object that needs to be removed.
+4. Use **event delegation** so that clicking the `x` or other buttons removes the item. This will require setting up a click event on the main todolist container, and using `event.target` to determine if the click is coming from a button, . Using `event.target.parentNode` to find the parent object. and using `removeChild()` on an object that needs to be removed.
 
 ##Super Super Bonus
 Using the built in HTML5 feature of local storage. Store your todo item into local storage. When your page is refreshed it will load the old todo items from localstorage.
